@@ -1,0 +1,70 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Gallery Container */
+.gallery-container {
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+/* Image Viewer Section */
+.image-viewer {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-viewer img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Buttons */
+.navigation {
+    margin-bottom: 20px;
+}
+
+.navigation button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.navigation button:hover {
+    background-color: #0056b3;
+}
+
+/* Thumbnail Section */
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s ease;
+}
+
+.thumbnails img:hover {
+    border-color: #007bff;
+}
